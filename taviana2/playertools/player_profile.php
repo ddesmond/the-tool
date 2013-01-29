@@ -1,7 +1,7 @@
 <?php require_once('../Connections/test.php'); ?>
 <?php require_once('../restrictions/restrictme.php'); ?>
 <?php
-
+// thanks to mariogaljanic //
 function createArrFromString($string, $type='Inventory'){
     //echo "<h1>we are in:$type</h1>";
     
