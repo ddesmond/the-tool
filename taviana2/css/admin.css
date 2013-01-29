@@ -1,0 +1,285 @@
+/*CSS Document
+
+FONTS HERE
+
+*/
+/*+clearfix {*/
+#playerlist TR TD A.skin:after, #playerlist TR TD A.yes:after, #playerlist A.no:after, .add_admin A:after, .menu:after, .main_content:after, .backpack:after
+{
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+	font-size: 0;
+}
+#playerlist TR TD A.skin, #playerlist TR TD A.yes, #playerlist A.no, .add_admin A, .menu, .main_content, .backpack
+{
+	display: inline-block;
+}
+#playerlist TR TD A.skin, #playerlist TR TD A.yes, #playerlist A.no, .add_admin A, .menu, .main_content, .backpack
+{
+/*\*/
+	display: block;
+/**/
+	_height: 1px;
+}
+/*+}*/
+@font-face
+{
+	font-family: Pnormal;
+	src: url('Puritan_Regular-webfont.eot');
+	src: url('Puritan_Regular-webfont.eot?#iefix') format('embedded-opentype'), url('Puritan_Regular-webfont.woff') format('woff'), url('Puritan_Regular-webfont.ttf') format('truetype'), url('Puritan_Regular-webfont.svg#Puritan20Normal') format('svg');
+	font-weight: normal;
+}
+@font-face
+{
+	font-family: Pitalic;
+	src: url('Puritan_Italic-webfont.eot');
+	src: url('Puritan_Italic-webfont.eot?#iefix') format('embedded-opentype'), url('Puritan_Italic-webfont.woff') format('woff'), url('Puritan_Italic-webfont.ttf') format('truetype'), url('Puritan_Italic-webfont.svg#Puritan20Italic') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face
+{
+	font-family: Pbold;
+	src: url('Puritan_Bold-webfont.eot');
+	src: url('Puritan_Bold-webfont.eot?#iefix') format('embedded-opentype'), url('Puritan_Bold-webfont.woff') format('woff'), url('Puritan_Bold-webfont.ttf') format('truetype'), url('Puritan_Bold-webfont.svg#Puritan20Bold') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face
+{
+	font-family: Pbolditalic;
+	src: url('Puritan_Bold_Italic-webfont.eot');
+	src: url('Puritan_Bold_Italic-webfont.eot?#iefix') format('embedded-opentype'), url('Puritan_Bold_Italic-webfont.woff') format('woff'), url('Puritan_Bold_Italic-webfont.ttf') format('truetype'), url('Puritan_Bold_Italic-webfont.svg#Puritan20BoldItalic') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+#bodycontent
+{
+	margin: 0 auto;
+	width: 1024px;
+	background: #DEDEDE;
+	padding: 0;
+}
+.stick_text
+{
+	top: 40px;
+	left: 20px;
+	float: left;
+	position: absolute;
+	color: #FFF;
+	font: 18px Pbold;
+}
+#servername
+{
+	position: absolute;
+	top: 10px;
+	width: 120px;
+	height: 120px;
+	background: url(../imgs/stick.png);
+}
+TR.headstables
+{
+	border-bottom: 1px solid #000;
+	height: 40px;
+}
+.cheat_content
+{
+	padding: 10px;
+	font: 1em sans-serif;
+}
+.head
+{
+	height: 150px;
+	width: 1024px;
+	background: url(../imgs/head.jpg);
+}
+A
+{
+	color: inherit;
+}
+A.skin
+{
+	text-align: center;
+}
+/*[clearfix]*/#playerlist TR TD A.skin
+{
+	background: #FDB225;
+	padding: 0;
+	text-align: center;
+}
+/*[clearfix]*/#playerlist TR TD A.yes
+{
+	background: #26FE44;
+	padding: 0;
+	text-align: center;
+}
+/*[clearfix]*/#playerlist A.no
+{
+	background: #FE7A72;
+	text-align: center;
+}
+.char_list
+{
+	width: 215px;
+	padding: 10px;
+	margin: 5px;
+	height: auto;
+	float: left;
+	background: #B3B3B3;
+	z-index: 255;
+}
+/*[clearfix]*/.char_list:hover
+{
+	width: 215px;
+	padding: 10px;
+	margin: 5px;
+	height: auto;
+	float: left;
+	background: #C9B983;
+	z-index: 255;
+}
+.char_back_img
+{
+	float: left;
+	clear: both;
+	width: 235px;
+	height: 173px;
+	position: absolute;
+	z-index: 0;
+	opacity: 0.3;
+}
+TD
+{
+	max-width: 360px;
+	font: 0.75em sans-serif;
+}
+TD:hover
+{
+	background: #DBC69E;
+}
+#admins TBODY TR TD
+{
+	background: #C4C4C4;
+	border-bottom: 1px solid #ABABAB;
+}
+.menu A
+{
+	text-decoration: none;
+	margin-right: 0;
+}
+.menu LI
+{
+	float: left;
+	padding: 10px;
+	font: 16px/1 Pbold;
+	cursor: pointer;
+	color: #FFFFFF;
+}
+.menu LI:hover
+{
+	float: left;
+	padding: 10px;
+	font: 16px/1 Pbold;
+	cursor: pointer;
+	color: #FFFFFF;
+	background: #AA0000 url(../imgs/fade.png) repeat-x bottom left;
+}
+.menu LI IMG
+{
+	padding: 0 5px;
+}
+.menu UL
+{
+	padding: 0;
+	margin: 0;
+}
+/*[clearfix]*/.add_admin A
+{
+	font: 1em Pbold;
+	width: 120px;
+	text-decoration: none;
+	text-align: center;
+	position: relative;
+	color: #FFFFFF;
+	padding: 20px;
+	margin: 50px 0 0;
+	background: #9B0000;
+}
+/*[clearfix]*/.menu
+{
+	width: 1024px;
+	height: auto;
+	padding: 0;
+	margin: 0;
+	background: #797979 url(../imgs/fade.png) repeat-x bottom left;
+}
+/*[clearfix]*/.main_content
+{
+	padding: 10px;
+	width: 1000px;
+	height: auto;
+	margin: 10px;
+	z-index: 0;
+}
+BODY
+{
+	background: #191919 url(../imgs/back_main.jpg) fixed center top;
+	margin: 0;
+	padding: 0;
+	font: 1em arial;
+}
+#char_table #temp_inventory IMG
+{
+	height: 52px;
+	width: auto;
+}
+/*[clearfix]*/.backpack
+{
+	background: #BFBFBF;
+	padding: 10px;
+}
+.temp
+{
+	float: left;
+	padding: 10px;
+}
+.usrlogd
+{
+	position: relative;
+	float: right;
+	right: 0;
+	padding: 10px;
+	background: #B00000 repeat-x bottom right;
+	color: #D9D9D9;
+	font: 1em/1 Pbold;
+}
+#mask
+{
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 9000;
+	background-color: #000;
+	display: none;
+}
+#boxes .window
+{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 440px;
+	height: 200px;
+	display: none;
+	z-index: 9999;
+	padding: 20px;
+}
+#boxes #dialog
+{
+	width: 420px;
+	height: auto;
+	padding: 10px;
+	background-color: #FFFFFF;
+}

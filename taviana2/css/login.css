@@ -1,0 +1,132 @@
+/*+clearfix {*/
+#forma:after
+{
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+	font-size: 0;
+}
+#forma
+{
+	display: inline-block;
+}
+#forma
+{
+/*\*/
+	display: block;
+/**/
+	_height: 1px;
+}
+/*+}*/
+BODY
+{
+	padding: 0;
+	margin: 0;
+	background: #020202;
+	font: 1em arial;
+	background-image:url('../../imgs/dzhbg3.jpg');
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-position:center; 
+	background-size:100% 100%;
+}
+.center
+{
+	width: 350px;
+	height: 208px;
+	margin: 120px auto 0;
+}
+.server A
+{
+	border: 0;
+	text-decoration: none;
+	color: #FFFFFF;
+	padding: 0;
+}
+.server A:hover
+{
+	text-decoration: none;
+	border: 0;
+}
+/*[clearfix]*/#forma
+{
+	width: 310px;
+	min-height: 160px;
+	margin: 0 auto;
+	color: #FFFFFF;
+	padding: 20px;
+	background: #161616;
+	text-align: center;
+}
+.server
+{
+	width: 290px;
+	background: #CC1A1A;
+	text-align: center;
+	color: #FFFFFF;
+	margin: 0 0 20px;
+	padding: 10px;
+}
+/*[clearfix]*/.server:hover
+{
+	width: 290px;
+	background: #E7A500;
+	text-align: center;
+	color: #FFFFFF;
+	margin: 0 0 20px;
+}
+#forma FORM INPUT
+{
+	width: 300px;
+	text-align: center;
+	padding: 5px;
+}
+.headform
+{
+	width: 330px;
+	height: 20px;
+	margin: 0 auto;
+	padding: 10px 10px 15px;
+	color: #FFFFFF;
+	background: #4F5459;
+	font: 22px Pbold;
+	text-align: center;
+}
+/*
+FONTS HERE
+
+*/
+@font-face
+{
+	font-family: Pnormal;
+	src: url('Puritan_Regular-webfont.eot');
+	src: url('Puritan_Regular-webfont.eot?#iefix') format('embedded-opentype'), url('Puritan_Regular-webfont.woff') format('woff'), url('Puritan_Regular-webfont.ttf') format('truetype'), url('Puritan_Regular-webfont.svg#Puritan20Normal') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face
+{
+	font-family: Pitalic;
+	src: url('Puritan_Italic-webfont.eot');
+	src: url('Puritan_Italic-webfont.eot?#iefix') format('embedded-opentype'), url('Puritan_Italic-webfont.woff') format('woff'), url('Puritan_Italic-webfont.ttf') format('truetype'), url('Puritan_Italic-webfont.svg#Puritan20Italic') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face
+{
+	font-family: Pbold;
+	src: url('Puritan_Bold-webfont.eot');
+	src: url('Puritan_Bold-webfont.eot?#iefix') format('embedded-opentype'), url('Puritan_Bold-webfont.woff') format('woff'), url('Puritan_Bold-webfont.ttf') format('truetype'), url('Puritan_Bold-webfont.svg#Puritan20Bold') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face
+{
+	font-family: Pbolditalic;
+	src: url('Puritan_Bold_Italic-webfont.eot');
+	src: url('Puritan_Bold_Italic-webfont.eot?#iefix') format('embedded-opentype'), url('Puritan_Bold_Italic-webfont.woff') format('woff'), url('Puritan_Bold_Italic-webfont.ttf') format('truetype'), url('Puritan_Bold_Italic-webfont.svg#Puritan20BoldItalic') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
