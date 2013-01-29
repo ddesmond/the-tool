@@ -11,15 +11,12 @@ This toolset emebed work of other artists / coders. I do not claim their work.
 This was made for fast players cheking / cheaters /teleports etc...
 
 Coding:
-Des
-Cookiezzz
+Des / Cookiezzz / MarioGaljanic / Other authors
 
 +add other contributors work
 
 Graphics:
-Dayz Wiki
-Des
-Dimi the photoshop master
+Dayz Wiki / Des / Dimi the photoshop master / Other authors
 
 
 
